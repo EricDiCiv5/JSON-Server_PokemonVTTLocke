@@ -1,0 +1,213 @@
+{
+    "entrenadores": [
+        {
+            "nombre": "Alecs",
+            "pokemons" : [
+                {
+                    "Venusaur": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ],
+                    "Skarmory": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ],
+                    "Registeel": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ],
+                    "Uxie": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ],
+                    "Gallade": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ]
+                }
+                
+            ]
+        },
+        {
+            "nombre": "Apolo",
+            "pokemons" : [
+                {
+                    "Weavile": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ],
+                    "Ludicolo": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ],
+                    "Crobat": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ],
+                    "Gliscor": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ],
+                    "Flygon": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ]
+                }  
+            ]
+        },
+        {
+            "nombre": "BigTavil",
+            "pokemons" : [
+                {
+                    "Azelf": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ],
+                    "Tyranitar": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ],
+                    "Vaporeon": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ],
+                    "Mismagius": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ],
+                    "Magnezone": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ]
+                }  
+            ]
+        },
+        {
+            "nombre": "Dalaisito",
+            "pokemons" : [
+                {
+                    "Blastoise": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ],
+                    "Bronzong": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ],
+                    "Kingdra": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ],
+                    "Metagross": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ],
+                    "Tangrowth": [
+                        {
+                            "naturaleza": "",
+                            "ataque1": "",
+                            "ataque2": "",
+                            "ataque3": "",
+                            "ataque4": ""
+                        }
+                    ]
+                }  
+            ]
+        }
+    ]
+}
