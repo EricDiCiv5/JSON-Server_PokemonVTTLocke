@@ -4,45 +4,58 @@
             "nombre": "Alecs",
             "pokemons" : [
                 {
-                    "Venusaur": [
+                    "nombre": "Venusaur",
+                    "naturaleza": "Mild",
+                    "ataques": [
                         {
-                            "naturaleza": "Mild",
                             "ataque1": "Grass Knot",
                             "ataque2": "Poison Powder",
                             "ataque3": "Protect",
                             "ataque4": "Earthquake"
                         }
-                    ],
-                    "Skarmory": [
+                    ]
+                },
+                {
+                    "nombre": "Skarmory",
+                    "naturaleza": "Impish",
+                    "ataques": [
                         {
-                            "naturaleza": "Impish",
                             "ataque1": "Slash",
                             "ataque2": "Spikes",
                             "ataque3": "Brave Bird",
                             "ataque4": "Rock Slide"
                         }
-                    ],
-                    "Registeel": [
+                    ]
+                },
+                {
+                    "nombre": "Registeel",
+                    "naturaleza": "Careful",
+                    "ataques": [
                         {
-                            "naturaleza": "Careful",
                             "ataque1": "Focus Blast",
                             "ataque2": "Hyper Beam",
                             "ataque3": "Shadow Claw",
                             "ataque4": "Rock Smash"
                         }
-                    ],
-                    "Uxie": [
+                    ]
+                },
+                {
+                    "nombre": "Uxie",
+                    "naturaleza": "Impish",
+                    "ataques": [
                         {
-                            "naturaleza": "Impish",
                             "ataque1": "Future Sight",
                             "ataque2": "Memento",
                             "ataque3": "Dazzling Gleam",
                             "ataque4": "Drain Punch"
                         }
-                    ],
-                    "Gallade": [
+                    ]
+                },
+                {
+                    "nombre": "Gallade",
+                    "naturaleza": "Adamant",
+                    "ataques": [
                         {
-                            "naturaleza": "Adamant",
                             "ataque1": "Hypnosis",
                             "ataque2": "Night Slash",
                             "ataque3": "Brick Break",
@@ -57,45 +70,58 @@
             "nombre": "Apolo",
             "pokemons" : [
                 {
-                    "Weavile": [
+                    "nombre": "Weavile",
+                    "naturaleza": "Jolly",
+                    "ataques": [
                         {
-                            "naturaleza": "Jolly",
                             "ataque1": "Night Slash",
                             "ataque2": "Icy Wind",
                             "ataque3": "Iron Tail",
                             "ataque4": "Dig"
                         }
-                    ],
-                    "Ludicolo": [
+                    ]
+                },
+                {
+                    "nombre": "Ludicolo",
+                    "naturaleza": "Calm",
+                    "ataques": [
                         {
-                            "naturaleza": "Calm",
                             "ataque1": "Giga Drain",
                             "ataque2": "Mist",
                             "ataque3": "Scald",
                             "ataque4": "Flash"
                         }
-                    ],
-                    "Crobat": [
+                    ]
+                },
+                {
+                    "nombre": "Crobat",
+                    "naturaleza": "Jolly",
+                    "ataques": [
                         {
-                            "naturaleza": "Jolly",
                             "ataque1": "Hyper Beam",
                             "ataque2": "Aerial Ace",
                             "ataque3": "Poison Fang",
                             "ataque4": "Toxic"
                         }
-                    ],
-                    "Gliscor": [
+                    ]
+                },
+                {
+                    "nombre": "Gliscor",
+                    "naturaleza": "Impish",
+                    "ataques": [
                         {
-                            "naturaleza": "Impish",
                             "ataque1": "Mud-Slap",
                             "ataque2": "Fury Cutter",
                             "ataque3": "Thief",
                             "ataque4": "X-Scissor"
                         }
-                    ],
-                    "Flygon": [
+                    ]
+                },
+                {
+                    "nombre": "Flygon",
+                    "naturaleza": "Lonely",
+                    "ataques": [
                         {
-                            "naturaleza": "Lonely",
                             "ataque1": "Rock Slide",
                             "ataque2": "Fly",
                             "ataque3": "Superpower",
@@ -109,45 +135,58 @@
             "nombre": "BigTavil",
             "pokemons" : [
                 {
-                    "Azelf": [
+                    "nombre": "Azelf",
+                    "naturaleza": "Timid",
+                    "ataques": [
                         {
-                            "naturaleza": "Timid",
                             "ataque1": "Psybeam",
                             "ataque2": "Uproar",
                             "ataque3": "Safeguard",
                             "ataque4": "Skill Swap"
                         }
-                    ],
-                    "Tyranitar": [
+                    ]
+                },
+                {
+                    "nombre": "Tyranitar",
+                    "naturaleza": "Adamant",
+                    "ataques": [
                         {
-                            "naturaleza": "Adamant",
                             "ataque1": "Dig",
                             "ataque2": "Crunch",
                             "ataque3": "Rock Tomb",
                             "ataque4": "Sandstorm"
                         }
-                    ],
-                    "Vaporeon": [
+                    ]
+                },
+                {
+                    "nombre": "Vaporeon",
+                    "naturaleza": "Bold",
+                    "ataques": [
                         {
-                            "naturaleza": "Bold",
                             "ataque1": "Rain Dance",
                             "ataque2": "Scald",
                             "ataque3": "Acid Armor",
                             "ataque4": "Last Resort"
                         }
-                    ],
-                    "Mismagius": [
+                    ]
+                },
+                {
+                    "nombre": "Mismagius",
+                    "naturaleza": "Calm",
+                    "ataques": [
                         {
-                            "naturaleza": "Calm",
                             "ataque1": "Phantom Force",
                             "ataque2": "Confuse Ray",
                             "ataque3": "Mystical Fire",
                             "ataque4": "Psychic"
                         }
-                    ],
-                    "Magnezone": [
+                    ]
+                },
+                {
+                    "nombre": "Magnezone",
+                    "naturaleza":  "Naive",
+                    "ataques": [
                         {
-                            "naturaleza": "Naive",
                             "ataque1": "Zap Cannon",
                             "ataque2": "Light Screen",
                             "ataque3": "Gyro Ball",
@@ -161,34 +200,46 @@
             "nombre": "Dalaisito",
             "pokemons" : [
                 {
-                    "Blastoise": [
+                    "nombre": "Blastoise",
+                    "naturaleza": "Bold",
+                    "ataques": [
                         {
-                            "naturaleza": "Bold",
                             "ataque1": "Hydro Pump",
                             "ataque2": "Iron Tail",
                             "ataque3": "Focus Blast",
                             "ataque4": "Endure"
                         }
-                    ],
-                    "Bronzong": [
+                    ]
+                },
+                {
+                    "nombre": "Bronzong",
+                    "naturaleza": "Sassy",
+                    "ataques": [
                         {
-                            "naturaleza": "Sassy",
                             "ataque1": "Payback",
                             "ataque2": "Rock Polish",
                             "ataque3": "Flash Cannon",
                             "ataque4": "Heavy Slam"
                         }
-                    ],
-                    "Kingdra": [
+                    ]
+                },
+                {
+                    "nombre": "Kingdra",
+                    "naturaleza": "Naughty",
+                    "ataques": [
                         {
-                            "naturaleza": "Naughty",
+                            
                             "ataque1": "Dragon Pulse",
                             "ataque2": "Agility",
                             "ataque3": "Hydro Pump",
                             "ataque4": "Brine"
                         }
-                    ],
-                    "Metagross": [
+                    ]
+                },
+                {
+                    "nombre": "Metagross",
+                    "naturaleza": "Naughty",
+                    "ataques": [
                         {
                             "naturaleza": "Adamant",
                             "ataque1": "Shadow Ball",
@@ -196,17 +247,20 @@
                             "ataque3": "Rock Tomb",
                             "ataque4": "Take Down"
                         }
-                    ],
-                    "Tangrowth": [
+                    ]
+                },
+                {
+                    "nombre": "Tangrowth",
+                    "naturaleza": "Modest",
+                    "ataques": [
                         {
-                            "naturaleza": "Modest",
                             "ataque1": "Power Whip",
                             "ataque2": "Slam",
                             "ataque3": "Poison Jab",
                             "ataque4": "Poison Powder"
                         }
                     ]
-                }  
+                }
             ]
         }
     ]
