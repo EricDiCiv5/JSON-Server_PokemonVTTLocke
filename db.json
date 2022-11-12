@@ -4,17 +4,31 @@
             "nombre": "Alecs",
             "pokemons" : [
                 {
-                    "nombre": "Venusaur",
-                    "naturaleza": "Mild",
-                    "ataques": [
+                    "name":"Venusaur",
+                    "nature": "Calm",
+                    "attacks":[
                         {
-                            "ataque1": "Grass Knot",
-                            "ataque2": "Poison Powder",
-                            "ataque3": "Protect",
-                            "ataque4": "Earthquake"
+                            "name":"Leech Seed",
+                            "type":"Grass",
+                            "style":"Attack"
+                        },
+                        {
+                            "name":"Sleep Powder",
+                            "type":"Grass",
+                            "style":"Support"
+                        },
+                        {
+                            "name":"Grass Knot",
+                            "type":"Grass",
+                            "style":"Attack"
+                        },
+                        {
+                            "name":"Sludge Bomb",
+                            "type":"Poison",
+                            "style":"Attack"
                         }
-                    ]
-                },
+                    ]                        
+                }, 
                 {
                     "nombre": "Skarmory",
                     "naturaleza": "Impish",
