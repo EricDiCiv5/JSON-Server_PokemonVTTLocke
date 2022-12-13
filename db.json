@@ -1,12 +1,12 @@
 {
     "entrenadores": [
         {
-            "nombre": "Alecs",
+            "fullName": "Alecs",
             "pokemons" : [
                 {
                     "name":"Venusaur",
                     "nature": "Calm",
-                    "attacks":[
+                    "attacks": [
                         {
                             "name":"Leech Seed",
                             "type":"Grass",
@@ -30,252 +30,1262 @@
                     ]                        
                 }, 
                 {
-                    "nombre": "Skarmory",
-                    "naturaleza": "Impish",
-                    "ataques": [
+                    "name": "Skarmory",
+                    "nature": "Impish",
+                    "attacks": [
                         {
-                            "ataque1": "Slash",
-                            "ataque2": "Spikes",
-                            "ataque3": "Brave Bird",
-                            "ataque4": "Rock Slide"
+                            "name": "Slash",
+                            "type": "Normal",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Spikes",
+                            "type": "Bug",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Brave Bird",
+                            "type": "Flying",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Rock Slide",
+                            "type": "Rock",
+                            "style": "Attack"
                         }
                     ]
                 },
                 {
-                    "nombre": "Registeel",
-                    "naturaleza": "Careful",
-                    "ataques": [
+                    "name": "Registeel",
+                    "nature": "Careful",
+                    "attacks": [
                         {
-                            "ataque1": "Focus Blast",
-                            "ataque2": "Hyper Beam",
-                            "ataque3": "Shadow Claw",
-                            "ataque4": "Rock Smash"
+                            "name": "Focus Blast",
+                            "type": "Fighting",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Hyper Beam",
+                            "type": "Normal",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Shadow Claw",
+                            "type": "Dark",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Rock Smash",
+                            "type": "Rock",
+                            "style": "Attack"
                         }
                     ]
                 },
                 {
-                    "nombre": "Uxie",
-                    "naturaleza": "Impish",
-                    "ataques": [
+                    "name": "Uxie",
+                    "nature": "Impish",
+                    "attacks": [
                         {
-                            "ataque1": "Future Sight",
-                            "ataque2": "Memento",
-                            "ataque3": "Dazzling Gleam",
-                            "ataque4": "Drain Punch"
+                            "name": "Future Sight",
+                            "type": "Psychic",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Memento",
+                            "type": "Normal",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Dazzling Gleam",
+                            "type": "Psychic",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Drain Punch",
+                            "type": "Fighting",
+                            "style": "Attack"
                         }
                     ]
                 },
                 {
-                    "nombre": "Gallade",
-                    "naturaleza": "Adamant",
-                    "ataques": [
+                    "name": "Gallade",
+                    "nature": "Adamant",
+                    "attacks": [
                         {
-                            "ataque1": "Hypnosis",
-                            "ataque2": "Night Slash",
-                            "ataque3": "Brick Break",
-                            "ataque4": "Close Combat"
+                            "name": "Hypnosis",
+                            "type": "Psychic",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Night Slash",
+                            "type": "Ghost",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Brick Break",
+                            "type": "Fighting",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Close Combat",
+                            "type": "fighting",
+                            "style": "Support"
                         }
                     ]
                 }
-                
             ]
         },
         {
-            "nombre": "Apolo",
-            "pokemons" : [
+            "fullName": "Apolo",
+            "pokemons": [
                 {
-                    "nombre": "Weavile",
-                    "naturaleza": "Jolly",
-                    "ataques": [
+                    "name": "Weavile",
+                    "nature": "Jolly",
+                    "attacks": [
                         {
-                            "ataque1": "Night Slash",
-                            "ataque2": "Icy Wind",
-                            "ataque3": "Iron Tail",
-                            "ataque4": "Dig"
+                            "name": "Night Slash",
+                            "type": "Ghost",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Icy Wind",
+                            "type": "Ice",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Iron Tail",
+                            "type": "Steel",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Dig",
+                            "type": "Ground",
+                            "style": "Attack"
                         }
                     ]
                 },
                 {
-                    "nombre": "Ludicolo",
-                    "naturaleza": "Calm",
-                    "ataques": [
+                    "name": "Ludicolo",
+                    "nature": "Calm",
+                    "attacks": [
                         {
-                            "ataque1": "Giga Drain",
-                            "ataque2": "Mist",
-                            "ataque3": "Scald",
-                            "ataque4": "Flash"
+                            "name": "Giga Drain",
+                            "type": "Grass",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Mist",
+                            "type": "Ice",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Scald",
+                            "type": "Fire",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Flash",
+                            "type": "Mist",
+                            "style": "Support"
+                        }
+
+                    ]
+                },
+                {
+                    "name": "Crobat",
+                    "nature": "Jolly",
+                    "attacks": [
+                        {
+                            "name": "Hyper Beam",
+                            "type": "Normal",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Aerial Ace",
+                            "type": "Flying",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Poison Fang",
+                            "type": "Poison",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Toxic",
+                            "type": "Poison",
+                            "style": "Support"
                         }
                     ]
                 },
                 {
-                    "nombre": "Crobat",
-                    "naturaleza": "Jolly",
-                    "ataques": [
+                    "name": "Gliscor",
+                    "nature": "Impish",
+                    "attacks": [
                         {
-                            "ataque1": "Hyper Beam",
-                            "ataque2": "Aerial Ace",
-                            "ataque3": "Poison Fang",
-                            "ataque4": "Toxic"
+                            "name": "Mud-Slap",
+                            "type": "Ground",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Fury Cutter",
+                            "type": "Bug",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Thief",
+                            "type": "Dark",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "X-Scissor",
+                            "type": "Bug",
+                            "style": "Attack"
                         }
                     ]
                 },
                 {
-                    "nombre": "Gliscor",
-                    "naturaleza": "Impish",
-                    "ataques": [
+                    "name": "Flygon",
+                    "nature": "Lonely",
+                    "attacks": [
                         {
-                            "ataque1": "Mud-Slap",
-                            "ataque2": "Fury Cutter",
-                            "ataque3": "Thief",
-                            "ataque4": "X-Scissor"
-                        }
-                    ]
-                },
-                {
-                    "nombre": "Flygon",
-                    "naturaleza": "Lonely",
-                    "ataques": [
+                            "name": "Rock Slide",
+                            "type": "Rock",
+                            "style": "Attack"
+                        },
                         {
-                            "ataque1": "Rock Slide",
-                            "ataque2": "Fly",
-                            "ataque3": "Superpower",
-                            "ataque4": "Dragon Rush"
+                            "name": "Flying",
+                            "type": "Flying",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "SuperPower",
+                            "type": "Dragon",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Dragon Rush",
+                            "type": "Dragon",
+                            "style": "Attack"
                         }
                     ]
                 }  
             ]
         },
         {
-            "nombre": "BigTavil",
+            "fullName": "BigTavil",
             "pokemons" : [
                 {
-                    "nombre": "Azelf",
-                    "naturaleza": "Timid",
-                    "ataques": [
+                    "name": "Azelf",
+                    "nature": "Timid",
+                    "attacks": [
                         {
-                            "ataque1": "Psybeam",
-                            "ataque2": "Uproar",
-                            "ataque3": "Safeguard",
-                            "ataque4": "Skill Swap"
+                            "name": "Psybeam",
+                            "type": "Psychic",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Uproar",
+                            "type": "Dark",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Safeguard",
+                            "type": "Normal",
+                            "style": "Defense"
+                        },
+                        {
+                            "name": "Skill Swap",
+                            "type": "Uproar",
+                            "style": "Support"
                         }
                     ]
                 },
                 {
-                    "nombre": "Tyranitar",
-                    "naturaleza": "Adamant",
-                    "ataques": [
+                    "name": "Tyranitar",
+                    "nature": "Adamant",
+                    "attacks": [
                         {
-                            "ataque1": "Dig",
-                            "ataque2": "Crunch",
-                            "ataque3": "Rock Tomb",
-                            "ataque4": "Sandstorm"
+                            "name": "Dig",
+                            "type": "Ground",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Crunch",
+                            "type": "Fighting",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Rock Tomb",
+                            "type": "Ground",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Sandstorm",
+                            "type": "Ground",
+                            "style": "support"
                         }
                     ]
                 },
                 {
-                    "nombre": "Vaporeon",
-                    "naturaleza": "Bold",
-                    "ataques": [
+                    "name": "Vaporeon",
+                    "nature": "Bold",
+                    "attacks": [
                         {
-                            "ataque1": "Rain Dance",
-                            "ataque2": "Scald",
-                            "ataque3": "Acid Armor",
-                            "ataque4": "Last Resort"
+                            "name": "Rain Dance",
+                            "type": "Scald",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Scald",
+                            "type": "Fire",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Acid Armor",
+                            "type": "Poison",
+                            "style": "Defense"
+                        },
+                        {
+                            "name": "Last Resort",
+                            "type": "Normal",
+                            "style": "Attack"
                         }
                     ]
                 },
                 {
-                    "nombre": "Mismagius",
-                    "naturaleza": "Calm",
-                    "ataques": [
+                    "name": "Mismagius",
+                    "nature": "Calm",
+                    "attacks": [
                         {
-                            "ataque1": "Phantom Force",
-                            "ataque2": "Confuse Ray",
-                            "ataque3": "Mystical Fire",
-                            "ataque4": "Psychic"
+                            "name": "Phantom Force",
+                            "type": "Ghost",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Confuse Ray",
+                            "type": "Psychic",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Mystical Fire",
+                            "type": "Ghost",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Psychic",
+                            "type": "Psychic",
+                            "style": "Attack"
                         }
                     ]
                 },
                 {
-                    "nombre": "Magnezone",
-                    "naturaleza":  "Naive",
-                    "ataques": [
+                    "name": "Magnezone",
+                    "nature":  "Naive",
+                    "attacks": [
                         {
-                            "ataque1": "Zap Cannon",
-                            "ataque2": "Light Screen",
-                            "ataque3": "Gyro Ball",
-                            "ataque4": "Spark"
+                            "name": "Zap Cannon",
+                            "type": "Electric",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Light Screen",
+                            "type": "Psychic",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Gyro Ball",
+                            "type": "Psychic",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Spark",
+                            "type": "Electric",
+                            "style": "Support"
                         }
                     ]
                 }  
             ]
         },
         {
-            "nombre": "Dalaisito",
+            "fullName": "Dalaisito",
             "pokemons" : [
                 {
-                    "nombre": "Blastoise",
-                    "naturaleza": "Bold",
-                    "ataques": [
+                    "name": "Blastoise",
+                    "nature": "Bold",
+                    "attacks": [
                         {
-                            "ataque1": "Hydro Pump",
-                            "ataque2": "Iron Tail",
-                            "ataque3": "Focus Blast",
-                            "ataque4": "Endure"
+                            "name": "Hydro Pump",
+                            "type": "Water",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Iron Tail",
+                            "type": "Steel",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Focus Blast",
+                            "type": "Fighting",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Endure",
+                            "type": "Steel",
+                            "style": "Support"
                         }
                     ]
                 },
                 {
-                    "nombre": "Bronzong",
-                    "naturaleza": "Sassy",
-                    "ataques": [
+                    "name": "Bronzong",
+                    "nature": "Sassy",
+                    "attacks": [
                         {
-                            "ataque1": "Payback",
-                            "ataque2": "Rock Polish",
-                            "ataque3": "Flash Cannon",
-                            "ataque4": "Heavy Slam"
+                            "name": "Payback",
+                            "type": "Dark",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Rock Polish",
+                            "type": "Rock",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Flash Cannon",
+                            "type": "Steel",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Heavy Slam",
+                            "type": "Fighting",
+                            "style": "Attack"
                         }
                     ]
                 },
                 {
-                    "nombre": "Kingdra",
-                    "naturaleza": "Naughty",
-                    "ataques": [
+                    "name": "Kingdra",
+                    "nature": "Naughty",
+                    "attacks": [
                         {
-                            
-                            "ataque1": "Dragon Pulse",
-                            "ataque2": "Agility",
-                            "ataque3": "Hydro Pump",
-                            "ataque4": "Brine"
+                            "name": "Dragon Pulse",
+                            "type": "Dragon",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Agility",
+                            "type": "Normal",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Hydro Pump",
+                            "type": "Water",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Brine",
+                            "type": "Ice",
+                            "style": "Support"
                         }
                     ]
                 },
                 {
-                    "nombre": "Metagross",
-                    "naturaleza": "Naughty",
-                    "ataques": [
+                    "name": "Metagross",
+                    "nature": "Naughty",
+                    "attacks": [
                         {
-                            "naturaleza": "Adamant",
-                            "ataque1": "Shadow Ball",
-                            "ataque2": "Sludge Bomb",
-                            "ataque3": "Rock Tomb",
-                            "ataque4": "Take Down"
+                            "name": "Shadow Ball",
+                            "type": "Ghost",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Sludge Bomb",
+                            "type": "Poison",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Rock Tomb",
+                            "type": "Rock",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Take Down",
+                            "type": "Fighting",
+                            "style": "Attack"
                         }
                     ]
                 },
                 {
-                    "nombre": "Tangrowth",
-                    "naturaleza": "Modest",
-                    "ataques": [
+                    "name": "Tangrowth",
+                    "nature": "Modest",
+                    "attacks": [
                         {
-                            "ataque1": "Power Whip",
-                            "ataque2": "Slam",
-                            "ataque3": "Poison Jab",
-                            "ataque4": "Poison Powder"
+                            "name": "Power Whip",
+                            "type": "Fighting",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Slam",
+                            "type": "Fighting",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Poison Jab",
+                            "type": "Poison",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Poison Powder",
+                            "type": "Poison",
+                            "style": "Support"
                         }
                     ]
                 }
             ]
+        },
+        {
+            "fullName": "Gofresito",
+            "pokemons" : [
+                {
+                    "name": "Breloom",
+                    "nature": "Jolly",
+                    "attacks": [
+                        {
+                            "name": "Rock Smash",
+                            "type": "Rock",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Grass Knot",
+                            "type": "Grass",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Substitute",
+                            "type": "Normal",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Rock Slide",
+                            "type": "Rock",
+                            "style": "Attack"
+                        }
+                    ]
+                },
+                {   
+                    "name": "Gengar",
+                    "nature": "Timid",
+                    "attacks": [
+                        {
+                            "name": "Trick Room",
+                            "type": "Psychic",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Swagger",
+                            "type": "Fighting",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Poison Jab",
+                            "type": "Poison",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Dark Pulse",
+                            "type": "Dark",
+                            "style": "Attack"
+                        }
+                    ]
+                },
+                {   
+                    "name": "Heatran",
+                    "nature": "Modest",
+                    "attacks": [
+                        {
+                            "name": "Stealth Rock",
+                            "type": "Rock",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Rock Climb",
+                            "type": "Rock",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Bulldoze",
+                            "type": "Normal",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Flash Cannon",
+                            "type": "Steel",
+                            "style": "Support"
+                        }
+                    ]
+                },
+                {
+                    "name": "Spiritomb",
+                    "nature": "Calm",
+                    "attacks": [
+                        {
+                            "name": "Shadow Ball",
+                            "type": "Ghost",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Curse",
+                            "type": "Dark",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Double Team",
+                            "type": "Normal",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Torment",
+                            "type": "Dark",
+                            "style": "Support"
+                        }
+                    ]
+                },
+                {
+                    "name": "Donphan",
+                    "nature": "Adamant",
+                    "attacks": [
+                        {
+                            "name": "Knock Off",
+                            "type": "Fighting",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Rollout",
+                            "type": "Rock",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Giga Impact",
+                            "type": "Normal",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Rock Tomb",
+                            "type": "Rock",
+                            "style": "Attack"
+                        }
+                    ]
+                }  
+            ]
+        },
+        {
+            "fullName": "Lufer Totus",
+            "pokemons" : [
+                {
+                    "name": "Milotic",
+                    "nature": "Bold",
+                    "attacks": [
+                        {
+                            "name": "Aqua Tail",
+                            "type": "Coil",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Coil",
+                            "type": "Poison",
+                            "style": "Defense"
+                        },
+                        {
+                            "name": "Safeguard",
+                            "type": "Normal",
+                            "style": "Defense"
+                        },
+                        {
+                            "name": "Dragon Tail",
+                            "type": "Dragon",
+                            "style": "Attack"
+                        }
+                    ]
+                },
+                {
+                    "name": "Mesprit",
+                    "nature": "Timid",
+                    "attacks": [
+                        {
+                            "name": "Copycat",
+                            "type": "Normal",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Shock Wave",
+                            "type": "Electric",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Energy Ball",
+                            "type": "Grass",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Charm",
+                            "type": "Psychic",
+                            "style": "Support"
+                        }
+                    ]
+                },
+                {
+                    "name": "Hariyama",
+                    "nature": "Impish",
+                    "attacks": [
+                        {
+                            "name": "Focus Punch",
+                            "type": "Fighting",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Endure",
+                            "type": "Normal",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Vital Throw",
+                            "type": "Fighting",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Rest",
+                            "type": "Psychic",
+                            "style": "Support"
+                        }
+                    ]
+                },
+                {
+                    "name": "Aerodactyl",
+                    "nature": "Adamant",
+                    "attacks": [
+                        {
+                            "name": "Stone Edge",
+                            "type": "Rock",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Agility",
+                            "type": "Normal",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Aerial Ace",
+                            "type": "flying",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Rock Polish",
+                            "type": "Rock",
+                            "style": "Attack"
+                        }
+                    ]
+                },
+                {
+                    "name": "Starmie",
+                    "nature": "Bold",
+                    "attacks": [
+                        {
+                            "name": "Surf",
+                            "type": "Water",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Tackle",
+                            "type": "Normal",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Psychic",
+                            "type": "Psychic",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Ice Beam",
+                            "type": "Ice",
+                            "style": "Attack"
+                        }
+                    ]
+                }  
+            ]
+        },
+        {
+            "fullName": "Revitz",
+            "pokemons" : [
+                {
+                    "name": "Shaymin",
+                    "nature": "Timid",
+                    "attacks": [
+                        {
+                            "name": "Sweet Scent",
+                            "type": "Grass",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Aromatherapy",
+                            "type": "Grass",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Energy Ball",
+                            "type": "Grass",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Healing Wish",
+                            "type": "Psychic",
+                            "style": "Support"
+                        }
+                    ]
+                },
+                {
+                    "name": "Inferneape",
+                    "nature": "Naive",
+                    "attacks": [
+                        {
+                            "name": "Brick Break",
+                            "type": "Fighting",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Fire Spin",
+                            "type": "Fire",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Stone Edge",
+                            "type": "Rock",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Flare Blitz",
+                            "type": "Fire Spin",
+                            "style": "Stone Edge"
+                        }
+                        
+                    ]
+                },
+                {
+                    "name": "Mamoswine",
+                    "nature": "Naughty",
+                    "attacks": [
+                        {
+                            "name": "Earthquake",
+                            "type": "Ground",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Amnesia",
+                            "type": "Psychic",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Rock Tomb",
+                            "type": "Rock",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Attract",
+                            "type": "Psychic",
+                            "style": "Support"
+                        }
+                    ]
+                },
+                {
+                    "name": "Hippowdown",
+                    "nature": "Adamant",
+                    "attacks": [
+                        {
+                            "name": "Sleep Talk",
+                            "type": "Psychic",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Roar",
+                            "type": "Dark",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Fissure",
+                            "type": "Ground",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Sandstorm",
+                            "type": "Ground",
+                            "style": "Support"
+                        }
+                    ]
+                },
+                {
+                    "name": "Empoleon",
+                    "nature": "Calm",
+                    "attacks": [
+                        {
+                            "name": "Hydro Pump",
+                            "type": "Water",
+                            "style": "Mist"
+                        },
+                        {
+                            "name": "Ice Beam",
+                            "type": "Ice",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Mist",
+                            "type": "Ice",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Fury Attack",
+                            "type": "Fighting",
+                            "style": "Attack"
+                        }
+                    ]
+                }  
+            ]  
+        },
+        {
+            "fullName": "Vibras Vic",
+            "pokemons" : [
+                {
+                    "name": "Blissey",
+                    "nature": "Bold",
+                    "attacks": [
+                        {
+                            "name": "Heal Pulse",
+                            "type": "Fighting",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Take Down",
+                            "type": "Fighting",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Focus Blast",
+                            "type": "Fighting",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Facade",
+                            "type": "Take Down",
+                            "style": "Support"
+                        }
+                    ]
+                },
+                {
+                    "name": "Honchkrow",
+                    "nature": "Jolly",
+                    "attacks": [
+                        {
+                            "name": "Foul Play",
+                            "type": "Psychic",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Wing Attack",
+                            "type": "Flying",
+                            "style": "Attack"
+                        },
+
+                        {
+                            "name": "Attract",
+                            "type": "Psychic",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Giga Impact",
+                            "type": "Fighting",
+                            "style": "Attack"
+                        }
+                    ]
+                },
+                {
+                    "name": "Swampert",
+                    "nature": "Impish",
+                    "attacks": [
+                        {
+                            "name": "Amnesia",
+                            "type": "Psychic",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Hydro Pump",
+                            "type": "Water",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Avalanche",
+                            "type": "Rock",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Waterfall",
+                            "type": "Water",
+                            "style": "Attack"
+                        }
+                    ]
+                },
+                {
+                    "name": "Nidoqueen",
+                    "nature": "Adamant",
+                    "attacks": [
+                        {
+                            "name": "Toxic",
+                            "type": "Poison",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Hyper Beam",
+                            "type": "Normal",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Sludge Bomb",
+                            "type": "Poison",
+                            "style": "Attack"
+                        },
+                        {
+                            "name": "Tail Whip",
+                            "type": "Normal",
+                            "style": "Attack"
+                        }
+                        
+                    ]
+                },
+                {
+                    "name": "Smeargle",
+                    "nature": "Hasty",
+                    "attacks": [
+                        {
+                            "name": "Sketch",
+                            "type": "Normal",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Sketch",
+                            "type": "Normal",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Sketch",
+                            "type": "Normal",
+                            "style": "Support"
+                        },
+                        {
+                            "name": "Sketch",
+                            "type": "Normal",
+                            "style": "Support"
+                        }
+                    ]
+                }  
+            ]
+        }
+    ],
+    "natureDictionaries": [
+        {
+        "name":"Hardy",
+        "basicAttkValue":0.61,
+        "basicDefValue":0.07,
+        "basicSuppValue":0.32,
+        "rageAttkValue":0.61,
+        "rageDefValue":0.07,
+        "rageSuppValue":0.32 
+        },{
+        "name":"Lonely",
+        "basicAttkValue":0.2,
+        "basicDefValue":0.25,
+        "basicSuppValue":0.55,
+        "rageAttkValue":0.84,
+        "rageDefValue":0.08,
+        "rageSuppValue":0.08 
+        },{
+        "name":"Brave",
+        "basicAttkValue":0.7,
+        "basicDefValue":0.15,
+        "basicSuppValue":0.15,
+        "rageAttkValue":0.32,
+        "rageDefValue":0.6,
+        "rageSuppValue":0.08 
+        },{
+        "name":"Adamant",
+        "basicAttkValue":0.38,
+        "basicDefValue":0.31,
+        "basicSuppValue":0.31,
+        "rageAttkValue":0.7,
+        "rageDefValue":0.15,
+        "rageSuppValue":0.15 
+        },{
+        "name":"Naughty",
+        "basicAttkValue":0.2,
+        "basicDefValue":0.7,
+        "basicSuppValue":0.1,
+        "rageAttkValue":0.7,
+        "rageDefValue":0.22,
+        "rageSuppValue":0.08 
+        },{
+        "name":"Bold",
+        "basicAttkValue":0.3,
+        "basicDefValue":0.2,
+        "basicSuppValue":0.5,
+        "rageAttkValue":0.32,
+        "rageDefValue":0.58,
+        "rageSuppValue":0.1 
+        },{
+        "name":"Docile",
+        "basicAttkValue":0.56,
+        "basicDefValue":0.22,
+        "basicSuppValue":0.22,
+        "rageAttkValue":0.56,
+        "rageDefValue":0.22,
+        "rageSuppValue":0.22 
+        },{
+        "name":"Relaxed",
+        "basicAttkValue":0.25,
+        "basicDefValue":0.15,
+        "basicSuppValue":0.6,
+        "rageAttkValue":0.75,
+        "rageDefValue":0.15,
+        "rageSuppValue":0.1 
+        },{
+        "name":"Impish",
+        "basicAttkValue":0.69,
+        "basicDefValue":0.06,
+        "basicSuppValue":0.25,
+        "rageAttkValue":0.28,
+        "rageDefValue":0.55,
+        "rageSuppValue":0.17 
+        },{
+        "name":"Lax",
+        "basicAttkValue":0.35,
+        "basicDefValue":0.1,
+        "basicSuppValue":0.55,
+        "rageAttkValue":0.29,
+        "rageDefValue":0.06,
+        "rageSuppValue":0.65 
+        },{
+        "name":"Timid",
+        "basicAttkValue":0.62,
+        "basicDefValue":0.1,
+        "basicSuppValue":0.28,
+        "rageAttkValue":0.3,
+        "rageDefValue":0.2,
+        "rageSuppValue":0.5 
+        },{
+        "name":"Hasty",
+        "basicAttkValue":0.58,
+        "basicDefValue":0.37,
+        "basicSuppValue":0.05,
+        "rageAttkValue":0.88,
+        "rageDefValue":0.06,
+        "rageSuppValue":0.06 
+        },{
+        "name":"Serious",
+        "basicAttkValue":0.34,
+        "basicDefValue":0.11,
+        "basicSuppValue":0.55,
+        "rageAttkValue":0.29,
+        "rageDefValue":0.11,
+        "rageSuppValue":0.6 
+        },{
+        "name":"Jolly",
+        "basicAttkValue":0.35,
+        "basicDefValue":0.05,
+        "basicSuppValue":0.6,
+        "rageAttkValue":0.35,
+        "rageDefValue":0.6,
+        "rageSuppValue":0.05 
+        },{
+        "name":"Naive",
+        "basicAttkValue":0.56,
+        "basicDefValue":0.22,
+        "basicSuppValue":0.22,
+        "rageAttkValue":0.56,
+        "rageDefValue":0.22,
+        "rageSuppValue":0.22 
+        },{
+        "name":"Modest",
+        "basicAttkValue":0.35,
+        "basicDefValue":0.45,
+        "basicSuppValue":0.2,
+        "rageAttkValue":0.34,
+        "rageDefValue":0.6,
+        "rageSuppValue":0.06 
+        },{
+        "name":"Mild",
+        "basicAttkValue":0.44,
+        "basicDefValue":0.5,
+        "basicSuppValue":0.06,
+        "rageAttkValue":0.34,
+        "rageDefValue":0.06,
+        "rageSuppValue":0.6 
+        },{
+        "name":"Quiet",
+        "basicAttkValue":0.56,
+        "basicDefValue":0.22,
+        "basicSuppValue":0.22,
+        "rageAttkValue":0.56,
+        "rageDefValue":0.22,
+        "rageSuppValue":0.22 
+        },{
+        "name":"Bashful",
+        "basicAttkValue":0.3,
+        "basicDefValue":0.58,
+        "basicSuppValue":0.12,
+        "rageAttkValue":0.3,
+        "rageDefValue":0.58,
+        "rageSuppValue":0.12 
+        },{
+        "name":"Rash",
+        "basicAttkValue":0.3,
+        "basicDefValue":0.13,
+        "basicSuppValue":0.57,
+        "rageAttkValue":0.27,
+        "rageDefValue":0.06,
+        "rageSuppValue":0.67 
+        },{
+        "name":"Calm",
+        "basicAttkValue":0.56,
+        "basicDefValue":0.22,
+        "basicSuppValue":0.22,
+        "rageAttkValue":0.56,
+        "rageDefValue":0.22,
+        "rageSuppValue":0.22 
+        },{
+        "name":"Gentle",
+        "basicAttkValue":0.18,
+        "basicDefValue":0.7,
+        "basicSuppValue":0.12,
+        "rageAttkValue":0.9,
+        "rageDefValue":0.05,
+        "rageSuppValue":0.05 
+        },{
+        "name":"Sassy",
+        "basicAttkValue":0.88,
+        "basicDefValue":0.06,
+        "basicSuppValue":0.06,
+        "rageAttkValue":0.22,
+        "rageDefValue":0.2,
+        "rageSuppValue":0.58 
+        },{
+        "name":"Careful",
+        "basicAttkValue":0.42,
+        "basicDefValue":0.5,
+        "basicSuppValue":0.08,
+        "rageAttkValue":0.42,
+        "rageDefValue":0.05,
+        "rageSuppValue":0.53 
+        },{
+        "name":"Quirky",
+        "basicAttkValue":0.56,
+        "basicDefValue":0.22,
+        "basicSuppValue":0.22,
+        "rageAttkValue":0.56,
+        "rageDefValue":0.22,
+        "rageSuppValue":0.22 
         }
     ]
 }

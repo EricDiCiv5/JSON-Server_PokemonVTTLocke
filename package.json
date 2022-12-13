@@ -1,15 +1,26 @@
 {
   "name": "json-server-pokemon-battle-frontier-vtt-locke",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
     "json-server": "^0.17.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricDiCiv5/JSON-Server_PokemonVTTLocke.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/EricDiCiv5/JSON-Server_PokemonVTTLocke/issues"
+  },
+  "homepage": "https://github.com/EricDiCiv5/JSON-Server_PokemonVTTLocke#readme",
+  "description": ""
 }
